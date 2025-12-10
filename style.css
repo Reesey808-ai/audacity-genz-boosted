@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background: #0f0f0f;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #141414;
+    border-radius: 18px;
+    border: 1px solid #222;
+    box-shadow: 0 0 30px rgba(0, 255, 200, 0.15);
+}
+
+.title {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 6px;
+    font-weight: 900;
+    color: #00ffd5;
+}
+
+.title span {
+    background: linear-gradient(45deg, #00ffd5, #00a3ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tagline {
+    text-align: center;
+    margin-bottom: 25px;
+    opacity: .85;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 150px;
+    background: #1c1c1c;
+    color: #00ffd5;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid #222;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+textarea:focus {
+    border-color: #00ffd5;
+    box-shadow: 0 0 12px rgba(0, 255, 200, 0.25);
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+    margin: 25px 0;
+    font-size: 20px;
+    background: linear-gradient(45deg, #00ffd5, #00a3ff);
+    border: none;
+    color: #111;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 800;
+    transition: 0.25s;
+}
+
+button:hover {
+    transform: scale(1.02);
+    opacity: .9;
+}
+
+.output-title {
+    margin: 15px 0 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #00ffd5;
+}
