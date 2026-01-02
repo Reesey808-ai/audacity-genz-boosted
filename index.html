@@ -1,25 +1,53 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Audacity – Email Cleaner</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audacity - Email Cleaner</title>
+  <style>
+    /* Simple Gen Z style */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #121212;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #00ffff;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      max-width: 400px;
+    }
+    a.cta {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #ff00ff;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 12px;
+      transition: transform 0.2s, background 0.2s;
+    }
+    a.cta:hover {
+      background: #ff33ff;
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
-
-    <div class="container">
-        <h1>Audacity</h1>
-        <p class="tagline">Your No-Code, One-Tap Email Cleaner</p>
-
-        <textarea id="emailInput" placeholder="Paste messy email text here..."></textarea>
-
-        <button onclick="cleanEmail()">Clean My Email</button>
-
-        <h2>Cleaned Output</h2>
-        <textarea id="output" readonly></textarea>
-    </div>
-
-    <script src="script.js"></script>
+  <h1>Audacity</h1>
+  <p>Clean your inbox instantly. Remove junk emails, clutter, and spam with one click. Fast, easy, and Gen Z-approved.</p>
+  <a class="cta" href="https://paypal.me/sherrice592">Get Access</a>
 </body>
 </html>
