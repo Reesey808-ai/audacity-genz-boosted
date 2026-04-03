@@ -1,3 +1,4 @@
+
 # Audacity Gen-Z Boost 🚀
 
 Audacity Gen-Z Boost is the upgraded, aesthetic, fast-as-hell version of the classic Audacity email cleaner — built for the hustle, the glow-up, and the “keep my inbox clean without thinking” lifestyle.
